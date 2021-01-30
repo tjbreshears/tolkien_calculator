@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>TOLKIEN Calculator</title>
+  <meta name="description" content="The best and only calculator for TOLKIEN book scores.">
+  <meta name="author" content="T.J. Breshears">
+
+  <link rel="stylesheet"  href="styles.css?v=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+</head>
+
+
+<body>
+
+<div id="container">
+  <h1>TOLKIEN Calculator</h1>
+  <div id="calculator">
+	  <h2>What book do you want to score?</h2>
+    <input id="title" type="text" placeholder="Title">
+<form>
+	<p><b>What is the current <a href="https://www.goodreads.com/" target="_blank" rel="noreferrer noopener">Goodreads</a> average rating?</b></p>
+  <input type="number" id="goodreadsText" placeholder="(out of 5)">
+
+	<p><b>Design Score: </b><span id="designShow"></span></p>
+	<input type="range" min="0" max="4" value="0" class="slider" id="designSlider">
+
+	<p><b>50 Page Score: </b><span id="fiftyShow"></span></p>
+	<input type="range" min="0" max="4" value="0" class="slider" id="fiftySlider">
+
+	<p><b>Tired Score: </b><span id="tiredShow"></span></p>
+	<input type="range" min="0" max="4" value="0" class="slider" id="tiredSlider">
+
+	<p><b>Prose Score: </b><span id="proseShow"></span></p>
+	<input type="range" min="0" max="4" value="0" class="slider" id="proseSlider">
+
+	<p><b>Conclusion Score: </b><span id="conclusionShow"></span></p>
+	<input type="range" min="0" max="4" value="0" class="slider" id="conclusionSlider">
+
+	<p><b>Length Score: </b><span id="lengthShow"></span></p>
+	<input type="range" min="0" max="4" value="0" class="slider" id="lengthSlider">
+
+	<p><b>Reread Score: </b><span id="rereadShow"></span></p>
+	<input type="range" min="0" max="4" value="0" class="slider" id="rereadSlider">
+
+	<p><b>Recommend Score: </b><span id="recommendShow"></span></p>
+	<input type="range" min="0" max="4" value="0" class="slider" id="recommendSlider">
+
+	<p><b>Thought-Provoking Score: </b><span id="thoughtShow"></span></p>
+	<input type="range" min="0" max="4" value="0" class="slider" id="thoughtSlider">
+
+</form>
+
+<button type="button" id="calculate">Calculate!</button>
+	</div>
+
+	<div id="totalContainer">
+		<span id=titleShow></span><br>
+    <span id="total">0.00</span>
+    <small id="per"> /100</small>
+  </div>
+</div>
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
