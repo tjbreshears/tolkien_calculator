@@ -10,7 +10,8 @@ Learn more about [TOLKIEN](https://www.tjbreshears.com/tolkien).
 * Sliders cause displayed values to update
 * Data validation for Goodreads score ( >=1 and <=5 )
 
-## Features to be Done
+## To Do
 * ~Integrate Goodreads~ [API no longer supported]
-* Allow user to set own weighted percentages
+* Clean up JS
 * Display cover of book with score
+* Allow user to set own weighted percentages
