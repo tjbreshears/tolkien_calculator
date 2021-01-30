@@ -10,6 +10,8 @@ Learn more about [TOLKIEN](https://www.tjbreshears.com/tolkien).
 * Sliders cause displayed values to update
 * Data validation for Goodreads score ( >=1 and <=5 )
 
+<img src="images/in action.gif">
+
 ## To Do
 * ~Integrate Goodreads~ [API no longer supported]
 * Clean up JS
