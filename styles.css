@@ -1,8 +1,5 @@
 body {
   font-family: "Open Sans", Sans-Serif;
-  background: #8E0E00;
-  background: -webkit-linear-gradient(to left, #8E0E00, #1F1C18);
-  background: linear-gradient(to left, #8E0E00, #1F1C18);
 }
 
 #container {
